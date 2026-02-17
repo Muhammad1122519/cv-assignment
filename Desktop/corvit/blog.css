@@ -1,0 +1,17 @@
+/* CSS Box Model ka istemal */
+.content {
+    margin-bottom: 50px; /* Har paragraph ke niche 50px ki jagah */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Akhri paragraph ke niche extra space khatam karne ke liye (Optional) */
+.content:last-child {
+    margin-bottom: 0;
+}
+
+.post-date {
+    color: gray;
+    font-style: italic;
+    margin-bottom: 20px;
+}
