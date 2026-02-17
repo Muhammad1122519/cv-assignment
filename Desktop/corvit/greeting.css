@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f2f5;
+}
+
+.greeting-card {
+    /* Laptop par 50% width lega */
+    width: 50%; 
+    
+    /* Mobile ke liye hum Media Query use karenge niche */
+    background: white;
+    padding: 2rem; /* Pixel ki jagah rem use kiya */
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem; /* Flexible font size */
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+/* MEDIA QUERY: Mobile screens ke liye (90% width) */
+@media (max-width: 600px) {
+    .greeting-card {
+        width: 90%; /* Mobile par khud 90% ho jayega */
+    }
+}
