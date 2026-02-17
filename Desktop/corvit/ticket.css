@@ -1,0 +1,16 @@
+/* CSS Specificity: Button ko Pitch Black aur Gold banana */
+/* .btn-primary ke sath .btn-qalandar mila kar ye heavier rule ban gayi hai */
+.btn.btn-primary.btn-qalandar {
+    background-color: #000000;
+    color: #FFD700; /* Gold Text */
+    border: 2px solid #FFD700;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+/* Hover Effect: Sir's Hint */
+.btn.btn-primary.btn-qalandar:hover {
+    background-color: #FFD700;
+    color: #000000;
+    border-color: #000000;
+}
