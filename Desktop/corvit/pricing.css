@@ -1,0 +1,12 @@
+.custom-card {
+    /* Sir's Requirement: Use min-height instead of <br> tags */
+    min-height: 400px;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+
+.custom-card:hover {
+    transform: translateY(-10px);
+}
+
+/* Flexbox for spacing between $ and price is already in HTML d-flex classes */
